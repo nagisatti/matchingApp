@@ -1,32 +1,21 @@
-# Next.js / Node.js
+# dependencies
+node_modules/
+
+# testing
+coverage/
+
+# next.js
+.next/
+out/
+
+# production
+build/
+
+# ASP.NET Core
+[Bb]in/
+[Oo]bj/
+
+# 配下の依存ファイル・生成ファイルを除外
 node_modules/
 .next/
 out/
-.vercel/
-*.tsbuildinfo
-next-env.d.ts
-
-# ASP.NET Core：ビルド結果・個人設定
-[Bb]in/
-[Oo]bj/
-.vs/
-*.user
-*.suo
-
-# 環境変数・秘密情報
-.env
-.env.*
-!.env.example
-!.env.*.example
-appsettings.Local.json
-appsettings.*.Local.json
-*.pfx
-*.p12
-
-# ログ
-*.log
-
-# OSが作成するファイル
-.DS_Store
-Thumbs.db
-Desktop.ini
